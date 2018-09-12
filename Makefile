@@ -139,7 +139,7 @@ INCLUDES =	-I$(SRC_DIR)/utils/bedFile \
 				-I$(SRC_DIR)/utils/RecordOutputMgr \
 				-I$(SRC_DIR)/utils/ToolBase \
 				-I$(SRC_DIR)/utils/driver \
-
+				-I/root/RUFUS/bin/externals/zlib/src/zlib_project
 
 all: print_banner $(OBJ_DIR) $(BIN_DIR) autoversion $(UTIL_SUBDIRS) $(SUBDIRS)
 	@echo "- Building main bedtools binary."
