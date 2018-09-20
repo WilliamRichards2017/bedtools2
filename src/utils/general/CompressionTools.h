@@ -8,7 +8,7 @@
 #ifndef COMPRESSIONTOOLS_H_
 #define COMPRESSIONTOOLS_H_
 
-#include <zlib.h>
+#include "/usr/include/zlib.h"
 #include "BTlist.h"
 
 //pass an array of gzipped data, and an empty, PRE-ALLOCATED buffer to store the unzipped results.
