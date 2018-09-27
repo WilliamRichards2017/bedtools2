@@ -14,7 +14,7 @@ using namespace std;
 #include <cstdio>
 #include <cerrno>
 #include <cstring>
-#include <zlib.h>
+#include "/usr/include/zlib.h"
 #include <cstdlib>
 
 #define GZBUFSIZ BUFSIZ
